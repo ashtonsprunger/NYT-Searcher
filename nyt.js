@@ -86,7 +86,7 @@ function displayResults(json){
             let clearfix = document.createElement('div');
 
             let current = articles[i];
-            console.log('Current:', current);
+            //console.log('Current:', current);
 
             link.href = current.web_url;
             link.textContent = current.headline.main;
